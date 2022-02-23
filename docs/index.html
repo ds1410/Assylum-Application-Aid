@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>AAA</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -13,9 +13,23 @@
     <body>
         <main>
             <div class="bg">
-                <div class="container text-center">
-                    <a class="btn btn-info btn-lg" href="#documents" role="button"><i class="fas fa-angle-down"></i>Application Information</a>
-                    <a class="btn btn-primary btn-lg" href="#executables" role="button"><i class="fas fa-angle-down"></i>Elegibility Checker</a>
+                <div class="navbar">
+                    <a href="#info">Application Information</a>
+                    <a href="#checker">Elegibility Checker</a>
+                    <a href="#about">About us</a>
+                    <a href="#partners">Partners</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">English
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Arabic</a>
+                            <a href="#">Spanish</a>
+                            <a href="#">Dari</a>
+                            <a href="#">Pashto</a>
+                            <a href="#">Burmese</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
