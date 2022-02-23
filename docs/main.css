@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: Helvetica, sans-serif;
+    margin : 0px;
 }
 
 .bg {
@@ -24,13 +25,12 @@ body {
     font-size: 20px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
-    margin: 0;
 }
 
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 18px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -74,3 +74,36 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.selection1{
+    position: absolute;
+    bottom: 315px;
+    right: 415px;
+    font-size: 24px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #CC6699;
+    font-family: inherit;
+    margin: 0;
+    height: 80px;
+    width:300px;
+    border-radius: 25px;
+}
+
+.selection2{
+    position: absolute;
+    bottom: 410px;
+    right: 415px;
+    font-size: 24px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #CC6699;
+    font-family: inherit;
+    margin: 0;
+    height: 80px;
+    width:300px;
+    border-radius: 25px;
+}
+
