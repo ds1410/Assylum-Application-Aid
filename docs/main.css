@@ -39,6 +39,10 @@ body {
     text-decoration: none;
 }
 
+.video {
+    text-align: center;
+}
+
 .dropdown {
     float: right;
     overflow: hidden;
@@ -51,6 +55,21 @@ body {
     color: white;
     padding: 18px 16px;
     background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdownsel {
+    overflow: hidden;
+}
+
+.dropdownsel .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 18px 16px;
+    background-color: #00ccff;
     font-family: inherit;
     margin: 0;
 }
@@ -93,7 +112,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    background-color: #CC6699;
+    background-color: #F5B92C;
     font-family: inherit;
     margin: 0;
     height: 80px;
@@ -109,7 +128,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    background-color: #CC6699;
+    background-color: #F5B92C;
     font-family: inherit;
     margin: 0;
     height: 80px;
